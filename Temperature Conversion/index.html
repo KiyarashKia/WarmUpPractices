@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="./public/css/main.css">
+</head>
+<body class="bg-gradient-to-r from-blue-200 via-gray-200 to-gray-100 h-screen">
+
+    <!-- Wrapper to center the form -->
+    <div class="flex justify-center items-center h-screen">
+      <!-- Form container -->
+      <div class="w-full max-w-2xl">
+        <p class="text-center text-4xl text-gray-700 font-semibold mt-4 mb-10">Temperature Converter, C - F</p>
+          <form class="bg-white shadow-xl rounded-2xl px-16 pt-12 pb-14 mb-8">
+            <div class="mb-8">
+              <label class="block text-gray-700 text-2xl font-bold mb-4" for="Temp">
+                Temperature
+              </label>
+              <input class="shadow appearance-none border rounded w-full py-4 px-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="TempBox" type="text" placeholder="Enter Temperature"> <!-- Increased input padding -->
+            </div>
+
+            <div class="flex items-center justify-between mb-8">
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded focus:outline-none focus:shadow-outline" id="toF" type="button" onclick="convert()"> <!-- Increased button padding -->
+                °C to °F
+              </button>
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded focus:outline-none focus:shadow-outline" id="toC" type="button" onclick="convert()"> <!-- Increased button padding -->
+                °F to °C
+              </button>
+            </div>
+
+            <!-- Display result here -->
+            <p id="result" class="text-center text-3xl text-gray-700 font-semibold mt-6"></p>
+
+          </form>
+          <p class="text-center text-gray-500 text-lg">
+            &copy;Kiarash Kia - Practice 2024
+          </p>
+      </div>
+    </div>
+
+    <script src="./views/index.js"></script>
+</body>
+</html>

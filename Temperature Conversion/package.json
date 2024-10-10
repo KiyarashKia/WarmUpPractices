@@ -1,0 +1,12 @@
+{
+  "name": "temperature-conversion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    
+  "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css"
+  },
+  "author": "KiarashKia",
+  "license": "ISC",
+  "description": ""
+}
