@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #007bff;
+}
+
+#taskForm {
+    justify-content: center;
+}
+
+#taskList {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.btn.btn-primary {
+
+width: auto;
+white-space: nowrap;
+padding: 0.5rem 1rem;
+border-radius: 10px;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.form-control:hover {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.list-group-item.completed {
+    text-decoration: line-through;
+    background-color: #d4edda;
+    color: #155724;
+}
+

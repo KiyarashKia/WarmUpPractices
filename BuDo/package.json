@@ -1,0 +1,17 @@
+{
+  "name": "budo",
+  "version": "1.0.0",
+  "description": "BuDo a ToDo",
+  "main": "app.js",
+"scripts": {
+  "start": "nodemon --watch app.js --watch public --ext js,html,css app.js"
+},
+  "author": "Kiarash Kia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
