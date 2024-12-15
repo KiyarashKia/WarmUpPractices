@@ -17,12 +17,13 @@ h1 {
 }
 
 .btn.btn-primary {
-
 width: auto;
 white-space: nowrap;
 padding: 0.5rem 1rem;
 border-radius: 10px;
 }
+
+
 
 .form-control {
     border-radius: 10px;
@@ -39,7 +40,14 @@ border-radius: 10px;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 5px;
+    /* transition: transform 0.2s ease, opacity 0.2s ease; */
 }
+
+/* .list-group-item.dragging {
+    opacity: 0.8;
+    background-color: #ffeeba; /* Highlight dragged item */
+    /* cursor: grabbing; Change cursor */
+/* } */
 
 .list-group-item.completed {
     text-decoration: line-through;

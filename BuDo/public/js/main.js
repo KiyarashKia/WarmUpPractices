@@ -2,6 +2,7 @@
 const taskForm = document.querySelector('#taskForm');
 const taskInput = document.querySelector('#taskInput');
 const taskList = document.querySelector('#taskList');
+const taskItem = document.querySelector('#list-group-item');
 
 // Handle form submission
 taskForm.addEventListener('submit', function (e) {
@@ -15,6 +16,7 @@ taskForm.addEventListener('submit', function (e) {
     const taskItem = document.createElement('li');
     taskItem.className = 'list-group-item';
     taskItem.textContent = taskValue;
+    taskItem.setAttribute('draggable', 'true'); // Enable dragging for this item
 
     // Add task to the list
     taskList.appendChild(taskItem);
